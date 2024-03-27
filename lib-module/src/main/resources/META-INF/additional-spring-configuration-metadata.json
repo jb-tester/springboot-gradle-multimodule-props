@@ -1,0 +1,52 @@
+{
+  "properties": [
+    {
+      "name": "my.lib.additional.prop",
+      "type": "java.lang.String",
+      "description": "property defined in additional-spring-configuration-metadata.json in lib module."
+  }
+],
+  "hints": [{
+    "name": "my.lib.prop",
+    "providers": [{
+      "name": "any"
+    }],
+    "values": [{
+      "value": "my.lib.prop_value1",
+      "description": "first value for my.lib.prop."
+    },{
+      "value": "my.lib.prop_value2",
+      "description": "second value for my.lib.prop."
+    }
+    ]
+  },
+    {
+      "name": "my.lib.additional.prop",
+      "providers": [{
+        "name": "any"
+      }],
+      "values": [{
+        "value": "my.lib.additional.prop_value1",
+        "description": "first value for my.lib.additional.prop."
+      },{
+        "value": "my.lib.additional.prop_value2",
+        "description": "second value for my.lib.additional.prop."
+      }
+      ]
+    },
+    {
+      "name": "my.app.prop",
+      "providers": [{
+        "name": "any"
+      }],
+      "values": [{
+        "value": "my.app.prop_value1",
+        "description": "first value for my.app.prop."
+      },{
+        "value": "my.app.prop_value2",
+        "description": "second value for my.app.prop."
+      }
+      ]
+    }
+  ]
+}
