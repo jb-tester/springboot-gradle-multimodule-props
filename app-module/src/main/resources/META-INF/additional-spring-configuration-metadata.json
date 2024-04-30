@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "my.app.additional.prop",
+      "type": "java.lang.String",
+      "description": "Description for my.app.additional.prop."
+  }
+],
+"hints": [{
+  "name": "my.app.additional.prop",
+  "providers": [{
+    "name": "any"
+  }],
+  "values": [{
+    "value": "my.app.additional.prop_value1",
+    "description": "first value for my.app.additional.prop."
+  },{
+    "value": "my.app.additional.prop_value2",
+    "description": "second value for my.app.additional.prop."
+  }
+  ]
+}]
+}
