@@ -11,7 +11,15 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("my.lib")
 public class LibConfigProps {
     String prop;
+    String prop2;
 
+    public String getProp2() {
+        return prop2;
+    }
+
+    public void setProp2(String prop2) {
+        this.prop2 = prop2;
+    }
     public String getProp() {
         return prop;
     }
